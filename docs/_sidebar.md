@@ -32,4 +32,6 @@
 - [前端工程化篇](articles/engineering/前端工程化篇.md)
 - [计算机网络篇](articles/http/计算机网络篇.md)
 - [浏览器原理篇](articles/browser/浏览器原理篇.md)
+- [手写代码篇](articles/handwriting/手写代码篇.md)
+- [代码逻辑篇](articles/logic/代码逻辑篇.md)
 
