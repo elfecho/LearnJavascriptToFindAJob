@@ -1,6 +1,6 @@
 ![img](https://raw.githubusercontent.com/elfecho/picgo-pic/master/images/202207271604404.png)
 
-## 一
+
 
 ### 1. Vue的基本原理
 
