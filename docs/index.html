@@ -467,7 +467,9 @@
 
           hook.doneEach(function() {
             var el = document.getElementById('gitalk-container')
-            while(el.hasChildNodes()) el.removeChild(el.firstChild)
+            if (el && el.hasChildNodes()) {
+              while(el.hasChildNodes()) el.removeChild(el.firstChild)
+            }
             gitalk.render('gitalk-container')
           })
         }
