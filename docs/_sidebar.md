@@ -30,4 +30,6 @@
 	-  [其他](articles/react/其他)
 - [性能优化篇](articles/optimizing/性能优化篇.md)
 - [前端工程化篇](articles/engineering/前端工程化篇.md)
+- [计算机网络篇](articles/http/计算机网络篇.md)
+- [浏览器原理篇](articles/browser/浏览器原理篇.md)
 
