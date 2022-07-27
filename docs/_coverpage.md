@@ -6,12 +6,13 @@
 
 ### LearnJavascriptToFindAJob  是一个帮助前端程序员到找到一份工作的面试指南
 
-- Javascript常见的面试题
-- Vue、React等框架
+- Javascript、HTML、CSS常见的面试题
+- Vue、React框架面试题
 - 计算机网络、操作系统
-- 高频算法
-- 项目经验
-- 简历
+- 性能优化
+- 前端工程化
+- 计算机网络、浏览器原理
+- 代码分析
 
 <span id="busuanzi_container_site_pv">
 👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
