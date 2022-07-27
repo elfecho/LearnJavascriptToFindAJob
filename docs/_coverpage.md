@@ -12,7 +12,7 @@
 - 性能优化
 - 前端工程化
 - 计算机网络、浏览器原理
-- 代码分析
+- 代码逻辑
 
 <span id="busuanzi_container_site_pv">
 👀    本站总访问量 <span id="busuanzi_value_site_pv"><i class="fa fa-spinner fa-spin"></i></span>次
