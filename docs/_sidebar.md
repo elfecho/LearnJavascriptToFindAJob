@@ -1,31 +1,12 @@
-* [首页](/README)    <!-- 对应 README.md -->
-* vue笔记 <!-- 对应 articles/vue -->
-	- [vue3高级用法](articles/vue/vue高级用法)
-	- [vue3 Composition API](/articles/vue/vue3CompositionAPI)
-	- [搭建vue3集成项目](/articles/vue/搭建vue3集成项目.md)
-	- [vue3小技巧](/articles/vue/vue3小技巧)
-	- [ssr初探](/articles/vue/ssr初探)
-	- [axios实现导出导入Excel](/articles/vue/axios实现导出导入Excel)
-* web3笔记 <!-- 对应 articles/web3 -->
-	- [常用网络配置](articles/web3/常用网络配置)
-- 数据存储
-	- [使用indexedDB](articles/storage/使用indexedDB)
-- git笔记 <!-- 对应 articles/git -->
-	- [git常用命令总结](articles/git/git常用命令总结)
-- 关于浏览器笔记<!-- 对应 articles/browser -->
-	- [关于location](articles/browser/关于location)
-- 使用docsify笔记<!-- 对应 articles/docsify -->
-	- [使用docsify](articles/docsify/使用docsify)
-	- [快速上传图片到github](articles/docsify/快速上传图片到github)
-- python<!-- 对应 articles/python -->
-	- [python3 基本数据类型](articles/python/python3%20基本数据类型.md)
-	- [python3 变量与运算符](articles/python/python3%20变量与运算符.md)
-	- [python3 分支循环条件与枚举](articles/python/python3%20分支循环条件与枚举.md)
-	- [python3 模块与包](articles/python/python3%20模块与包.md)
-	- [python3 函数](articles/python/python3%20函数.md)
-	- [python3 面向对象](articles/python/python3%20面向对象.md)
-	- [python3 正则表达式](articles/python/python3%20正则表达式.md)
-	- [python3 枚举](articles/python/python3%20枚举.md)
-	- [python3 函数式编程](articles/python/python3%20函数式编程.md)
-	- [python3 原生爬虫](articles/python/python3%20原生爬虫.md)
-	- [python3 杂记](articles/python/python3%20杂记.md)
+- <font style="color:black;font-size:20px;font-weight:2px">基础篇</font>
+- [HTML篇](articles/html/HTML篇)
+- CSS篇
+	- [CSS基础](articles/css/CSS基础)
+	- [页面布局](articles/css/页面布局)
+	- [定位与浮动](articles/css/定位与浮动)
+	- [场景应用](articles/css/场景应用)
+- Javascript 基础 <!-- 对应 articles/vue -->
+	- [数据类型](articles/javascript/数据类型)
+	- [ES6](articles/javascript/ES6)
+	- [JavaScript基础(一)](articles/javascript/JavaScript基础(一))
+	- [JavaScript基础(二)](articles/javascript/JavaScript基础(二))

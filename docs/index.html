@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Elfecho 个人笔记</title>
+  <title>LearnJavascriptToFindAJob</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
@@ -18,7 +18,7 @@
   <script src="//unpkg.com/markmap@0.6.1/lib/d3-flextree.js"></script>
   <script src="//unpkg.com/markmap@0.6.1/lib/view.mindmap.js"></script>
   <!-- 文件夹样式 -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" />
+  <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar-folder.min.css" /> -->
   <!-- 箭头样式 -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
   <link rel="stylesheet" href="//unpkg.com/markmap@0.6.1/style/view.mindmap.css">
@@ -366,27 +366,21 @@
   </div>
   <script>
     var gitalk = new Gitalk({
-      clientID: '16155433ca5b81d55ef9',
-      clientSecret: '8ce1c02f714f1ee7f9e2558709fdcd93ff66bec1',
-      // accessToken: '30c55e31acbb0cb61d30f92d14e32541880eefaf',
-      repo: 'myNote',
+      clientID: 'dfcde5a87d7fe0c41e4e',
+      clientSecret: '807d7bc9a1b8e9a169ca0cdb24d9d9b48cb42f83',
+      repo: 'LearnJavascriptToFindAJob',
       owner: 'elfecho',
       admin: ['elfecho'],
       distractionFreeMode: false,
     })
-    // window.onhashchange = function(event){
-    //   if(event.newURL.split('?')[0] !== event.oldURL .split('?')[0]) {
-    //     location.reload()
-    //   }
-    // }
     
     window.$docsify = {
-      name: 'Elfecho',
-      repo: 'https://github.com/elfecho/elfecho.github.io',
+      name: 'LearnJavascriptToFindAJob',
+      repo: 'https://github.com/elfecho/LearnJavascriptToFindAJob',
       nameLink: '#/',
       loadSidebar: true, // 开启侧边栏设置
       maxLevel: 0, // 默认情况下会抓取文档中所有标题渲染成目录，可配置最大支持渲染的标题层级。
-      subMaxLevel: 0, // 生成目录的最大层级
+      subMaxLevel: 1, // 生成目录的最大层级
       loadNavbar: true, // 加载自定义侧边栏
       coverpage: true, // 加载封面
       mergeNavbar: true, // 小屏设备下合并导航栏到侧边栏
@@ -421,7 +415,7 @@
         placeholder: '🔍 Type to search ',
         noData: '😞 No Results!',
         depth: 6, //搜索的标题深度
-        namespace: "website-1", // 避免搜索索引冲突,同一域下的多个网站之间
+        namespace: "website-2", // 避免搜索索引冲突,同一域下的多个网站之间
       },
       //字数统计，需要引入js
       count: {
@@ -445,11 +439,11 @@
       onlyCover: true,
       formatUpdated: '{MM}/{DD} {HH}:{mm}',
 
-      formatUpdated: function (time) {
-        // ...
+      // formatUpdated: function (time) {
+      //   // ...
 
-        return time;
-      },
+      //   return time;
+      // },
       mindmap: {
         // https://github.com/dundalek/markmap
         markmap: {
@@ -473,14 +467,6 @@
             while(el.hasChildNodes()) el.removeChild(el.firstChild)
             gitalk.render('gitalk-container')
           })
-          // hook.beforeEach(function (html) {
-          //   var url = 'https://github.com/elfecho/elfecho.github.io/tree/master/docs/' + vm.route.file
-          //   var editHtml = '[:memo: Edit Document](' + url + ')\n'
-          //   return html
-          //     + '\n----\n'
-          //     + 'Last modified {docsify-updated} '
-          //     + editHtml
-          // })
         }
       ]
     }
@@ -540,7 +526,7 @@
   <script src="js/countable.js"></script>
 
   <!-- 侧边栏目录折叠 -->
-  <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/docsify-sidebar-collapse.min.js"></script> -->
 
   <!-- 页面右侧 TOC -->
   <script src="https://cdn.jsdelivr.net/npm/docsify-plugin-toc@1.1.0/dist/docsify-plugin-toc.min.js"></script>
