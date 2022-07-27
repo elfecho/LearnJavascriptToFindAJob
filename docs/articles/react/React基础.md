@@ -1,3 +1,5 @@
+![React面试题.png](https://raw.githubusercontent.com/elfecho/picgo-pic/master/images/202207271613883.png)
+
 ### 1. React 事件机制
 
 ```javascript
