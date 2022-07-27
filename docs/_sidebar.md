@@ -1,4 +1,4 @@
-- <font style="color:black;font-size:20px;font-weight:2px">基础篇</font>
+- <font style="color:black;font-size:20px;font-weight:2px">面试考点</font>
 - [HTML篇](articles/html/HTML篇)
 - CSS篇
 	- [CSS基础](articles/css/CSS基础)
@@ -13,4 +13,8 @@
 - Vue篇
 	- [Vue基础](articles/vue/Vue基础)
 	- [生命周期](articles/vue/生命周期)
-	- [生命周期](articles/vue/生命周期)
+	- [组件通信](articles/vue/组件通信)
+	- [路由](articles/vue/路由)
+	- [Vuex](articles/vue/Vuex)
+	- [Vue3.0](articles/vue/Vue3.0)
+	- [虚拟DOM](articles/vue/虚拟DOM)
