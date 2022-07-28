@@ -3,10 +3,11 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>LearnJavascriptToFindAJob</title>
+  <title>JavascriptInterview</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="images/hackster.png" type="image/png">
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css"> -->
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
@@ -362,8 +363,8 @@
       </div>
       <p class="loader-text">LOADING</p>
     </div>
-    <div id="gitalk-container" style="display: none;"></div>
   </div>
+  <div id="gitalk-container" style="display: none;"></div>
   <script>
     var gitalk = new Gitalk({
       clientID: 'dfcde5a87d7fe0c41e4e',
@@ -375,6 +376,12 @@
       id: location.hash.match(/#(.*?)([?]|$)/)[1],
       distractionFreeMode: false,
     })
+
+    // window.onhashchange = function (event) {
+    //   if (event.newURL.split('?')[0] === event.oldURL.split('?')[0]) {
+    //     location.reload()
+    //   }
+    // }
 
     window.$docsify = {
       name: 'JavascriptInterview',
