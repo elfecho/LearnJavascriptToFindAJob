@@ -11,8 +11,8 @@
   <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
   <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.3.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="//unpkg.com/gitalk/dist/gitalk.css">
-  <script src="//unpkg.com/docsify/lib/plugins/gitalk.min.js"></script>
-  <script src="//unpkg.com/gitalk/dist/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
   <!-- markmap is based on d3, so must load those files first. -->
   <script src="//unpkg.com/d3@3/d3.min.js"></script>
   <script src="//unpkg.com/markmap@0.6.1/lib/d3-flextree.js"></script>
@@ -23,11 +23,10 @@
   <!-- 箭头样式 -->
   <!-- <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify-sidebar-collapse/dist/sidebar.min.css" /> -->
   <link rel="stylesheet" href="//unpkg.com/markmap@0.6.1/style/view.mindmap.css">
-  <link rel="stylesheet"
-      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
-      
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+
   <link rel="stylesheet" href="style.css">
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
 </head>
 
 <body>
@@ -363,22 +362,22 @@
       </div>
       <p class="loader-text">LOADING</p>
     </div>
-  </div>
+    <div id="gitalk-container" style="display: none;"></div>
   </div>
   <script>
     var gitalk = new Gitalk({
-      title: 'LearnJavascriptToFindAJob',
       clientID: 'dfcde5a87d7fe0c41e4e',
       clientSecret: '807d7bc9a1b8e9a169ca0cdb24d9d9b48cb42f83',
       repo: 'LearnJavascriptToFindAJob',
       owner: 'elfecho',
       admin: ['elfecho'],
-      id: md5(location.pathname),
+      title: location.hash.match(/#(.*?)([?]|$)/)[1],
+      id: location.hash.match(/#(.*?)([?]|$)/)[1],
       distractionFreeMode: false,
     })
-    
+
     window.$docsify = {
-      name: 'LearnJavascriptToFindAJob',
+      name: 'JavascriptInterview',
       repo: 'https://github.com/elfecho/LearnJavascriptToFindAJob',
       nameLink: '#/',
       loadSidebar: true, // 开启侧边栏设置
@@ -457,7 +456,7 @@
       plugins: [
         function (hook, vm) {
           // 配置gitalk
-          hook.mounted(function() {
+          hook.mounted(function () {
             var div = Docsify.dom.create('div')
             div.id = 'gitalk-container'
             var main = Docsify.dom.getNode('#main')
@@ -465,10 +464,10 @@
             Docsify.dom.appendTo(Docsify.dom.find('.content'), div)
           })
 
-          hook.doneEach(function() {
+          hook.doneEach(function () {
             var el = document.getElementById('gitalk-container')
             if (el && el.hasChildNodes()) {
-              while(el.hasChildNodes()) el.removeChild(el.firstChild)
+              while (el.hasChildNodes()) el.removeChild(el.firstChild)
             }
             gitalk.render('gitalk-container')
           })
@@ -519,7 +518,7 @@
 
   <script src="js/external-script.min.js"></script>
 
-    <script src="js/ga.min.js"></script>
+  <script src="js/ga.min.js"></script>
 
   <!--搜索-->
   <!--<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>-->

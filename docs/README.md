@@ -1,8 +1,8 @@
 # 💐Elfecho
 
-## ✨1、LearnJavascriptToFindAJob介绍
+## ✨1、JavascriptInterview介绍
 
-> LearnJavascriptToFindAJob 是一个帮助前端程序员到找到一份工作的面试指南。
+> JavascriptInterview 是一个帮助前端程序员到找到一份工作的面试指南。
 
 
 

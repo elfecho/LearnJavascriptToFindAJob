@@ -2,9 +2,9 @@
 
 ![logo](images/logo.png)
 
-#  LearnJavascriptToFindAJob
+#  JavascriptInterview
 
-### LearnJavascriptToFindAJob  是一个帮助前端程序员到找到一份工作的面试指南
+### JavascriptInterview  是一个帮助前端程序员到找到一份工作的面试指南
 
 - Javascript、HTML、CSS常见的面试题
 - Vue、React框架面试题
